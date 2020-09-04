@@ -1,0 +1,20 @@
+#container-acompanhamento {
+	margin-top: 50px;
+	position: relative;
+}
+#titulo-manifestacao {
+	position: relative;
+	font-size: 13px;
+	background-color: #d3d3d3;
+	width: 100%;
+	height: 20px;
+}
+#form-acompanhamento {
+	width: 500px;
+}
+#titulo2-manifestacao{
+	position: relative;
+	font-size: 12px;
+	width: 100%;
+	margin: 10px;
+}

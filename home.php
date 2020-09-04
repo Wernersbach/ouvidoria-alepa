@@ -9,10 +9,10 @@
 	?>
 </head>
 <body>
+	<div id="bg-central" class="full"></div>
 	<?php
 	include_once("./views/header.php");
 	?>
-	<div id="bg-central" class="full"></div>
 	<?php
 	include_once "./views/home.php";
 	include_once "./views/footer.php";

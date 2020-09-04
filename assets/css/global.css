@@ -1,0 +1,96 @@
+/* Fundo principal */
+body, html {
+	margin: 0;
+	padding: 0;
+}
+#bg-central {
+	background-image: url("../imagens/brasao_alepa.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: contain;
+	opacity: 0.13;
+	z-index: 1;
+}
+main {
+	position: relative;
+	height: auto;
+	width: 100%;
+	height: calc(100vh - 150px);
+	z-index: 2;
+}
+footer {
+	position: relative;
+	width: 100%;
+	z-index: 2;
+	background-color: white;
+}
+li {
+	list-style: none;
+	display: contents;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+p {
+	text-align: center;
+}
+.separador {
+	position: relative;
+	margin-right: 20px;
+	padding: 5px 5px 5px 0px;
+}
+.separador:hover {
+	border-bottom: solid 2px white;
+}
+.box {
+	padding: 10px;
+	border: solid 1px rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
+	box-shadow: 1px 1px 7px 2px rgba(0, 0, 0, 0.3);
+	background-color: white;
+}
+
+/* Estruturas */
+.full {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.row {
+	display: flex;
+	flex-direction: column;
+}
+.coll {
+	display: flex;
+	flex-direction: row;
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* Tabelas */
+table {
+	margin: 5px;
+	width: 100%;
+	border-spacing: 0;
+}
+th {
+	border: solid 1px rgba(0, 0, 0, 0.3);
+	font-size: 13px;
+}
+
+/* Informativos */
+.balao-blue {
+	background-color: #1E68A5;
+	padding: 10px;
+	border-radius: 40px;
+	margin: 10px;
+}

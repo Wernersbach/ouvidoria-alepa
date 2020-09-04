@@ -14,7 +14,7 @@
 	?>
 	<div id="bg-central" class="full"></div>
 	<?php
-	include_once "./views/home.php";
+	include_once "./views/acompanhamento.php";
 	include_once "./views/footer.php";
 	?>
 </body>

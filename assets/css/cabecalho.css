@@ -1,0 +1,86 @@
+/* menu completo */
+header {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	background-color: #1E68A5;
+	z-index: 2;
+}
+
+/* menu 1 */
+#menu-1 {
+	position: relative;
+	height: 35px;
+	background-color: #002958;
+	padding: 0 5% 0 5%;
+	justify-content: space-between;
+}
+#nome-alepa {
+	position: relative;
+	width: 70px;
+	height: 100%;
+}
+#menu1-alepa {
+	color: white;
+}
+#icons-menu1 {
+	position: relative;
+	width: 80px;
+	height: 100%;
+}
+#list-icons-menu1 {
+	justify-content: space-around;
+	width: 70px;
+}
+#busca-menu1 {
+	position: relative;
+	width: 200px;
+	min-width: 200px;
+	height: 100%;
+}
+#input-busca-menu1 {
+	width: auto;
+}
+#itens-menu1 {
+	width: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* menu 2 */
+#menu-2 {
+	height: 110px;
+	justify-content: space-between;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+#image-alepa {
+	position: relative;
+	height: 45px;
+	width: 300px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+#divisor-menu2 {
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.3);
+	height: 1px;
+	width: 100%;
+}
+#itens-menu2 {
+	position: relative;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 3px;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+.icone-menu {
+	position: absolute;
+	top: 4px;
+}
